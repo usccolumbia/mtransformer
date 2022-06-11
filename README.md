@@ -18,7 +18,14 @@ All above datasets can be downloaded from <a href="http://www.figshare.com/">Fig
 
 ### Trained Materials Transformer Models
 
-
+|         | ICSD-mix     | ICSD-pure | Hybrid-mix | Hybrid-pure | Hybrid-strict |
+|---------|--------------|-----------|------------|-------------|---------------|
+| GPT     | GPT-ICSD-mix |           |            |             |               |
+| GPT2    |              |           |            |             |               |
+| GPTJ    |              |           |            |             |               |
+| GPTNeo  |              |           |            |             |               |
+| BART    |              |           |            |             |               |
+| RoBERTa |              |           |            |             |               |
 
 
 ### How to train with your own dataset
