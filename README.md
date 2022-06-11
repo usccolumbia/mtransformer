@@ -1,2 +1,2 @@
-# mtransformer
+# MTransformer
 Materials Transformers
