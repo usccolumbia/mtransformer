@@ -36,9 +36,12 @@ All above datasets can be downloaded from <a href="http://www.figshare.com/">Fig
 #### Data preparation
 
 
-#### Running
+#### Training
 
-
+Train MT-GPT materials transformers 
+```
+python MT-GPT-train.py --data xxxx --modelfile xxxx.pickle
+```
 
 ### How to generate new materials compositions/formula using the trained models
 
