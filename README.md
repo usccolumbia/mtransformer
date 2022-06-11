@@ -20,18 +20,29 @@ All above datasets can be downloaded from <a href="http://www.figshare.com/">Fig
 
 |         | ICSD-mix     | ICSD-pure | Hybrid-mix | Hybrid-pure | Hybrid-strict |
 |---------|--------------|-----------|------------|-------------|---------------|
-| GPT     | GPT-ICSD-mix |           |            |             |               |
-| GPT2    |              |           |            |             |               |
-| GPTJ    |              |           |            |             |               |
-| GPTNeo  |              |           |            |             |               |
-| BART    |              |           |            |             |               |
-| RoBERTa |              |           |            |             |               |
+| MT-GPT     | GPT-ICSD-mix |           |            |             |               |
+| MT-GPT2    |              |           |            |             |               |
+| MT-GPTJ    |              |           |            |             |               |
+| MT-GPTNeo  |              |           |            |             |               |
+| MT-BART    |              |           |            |             |               |
+| MT-RoBERTa |              |           |            |             |               |
 
 
 ### How to train with your own dataset
 
+#### Installation
+
+
+#### Data preparation
+
+
+#### Running
 
 
 
 ### How to generate new materials compositions/formula using the trained models
 
+Generate materials formulas using the MT-GPT 
+```
+python MT-GPT-generate.py --model xxxx --outputfile xxxx.csv
+```
