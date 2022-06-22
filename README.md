@@ -43,14 +43,14 @@ pip install -r requirements.txt
 Download datasets from the above link, then unzip it under `MT_dataset` folder.
 
 #### Training
-
-Train a MT-GPT model on the Hybrid-mix dataset. 
+An example is to train a MT-GPT model on the Hybrid-mix dataset. 
 ```
 python ./MT_model/MT_GPT/train_GPT.py  --tokenizer ./MT_model/tokenizer/   --train_data  ./MT_Dataset/hy_mix/train.txt  --valid_data ./MT_Dataset/hy_mix/valid.txt  --output_dir ./output
 ```
 The training for other models is similar to MT-GPT.
 
 ### How to generate new materials compositions/formula using the trained models
+Download models from the above link or use your own trianed models, then put them into correspoding folders.
 
 Generate materials formulas using the trained MT-GPT 
 ```
