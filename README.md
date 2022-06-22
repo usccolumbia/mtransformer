@@ -24,32 +24,40 @@ All above datasets can be downloaded from [Figshare](https://figshare.com/accoun
 
 |         | ICSD-mix     | ICSD-pure | Hybrid-mix | Hybrid-pure | Hybrid-strict |
 |---------|--------------|-----------|------------|-------------|---------------|
-| MT-GPT     | [GPT-ICSD-mix]() |[GPT-ICSD_pure] |[GPT-Hybrid-mix] | [GPT-Hybrid-pure] | [GPT-Hybrid-strict]|
-| MT-GPT2    | [GPT2-ICSD-mix]() |[GPT2-ICSD_pure] |[GPT2-Hybrid-mix] | [GPT2-Hybrid-pure] | [GPT2-Hybrid-strict]|
-| MT-GPTJ    | [GPTJ-ICSD-mix]() |[GPTJ-ICSD_pure] |[GPTJ-Hybrid-mix] | [GPTJ-Hybrid-pure] | [GPTJ-Hybrid-strict]|
-| MT-GPTNeo  | [GPTNeo-ICSD-mix]() |[GPTNeo-ICSD_pure] |[GPTNeo-Hybrid-mix] | [GPTNeo-Hybrid-pure] | [GPTNeo-Hybrid-strict]|
-| MT-BART    | [BART-ICSD-mix]() |[BART-ICSD_pure] |[BART-Hybrid-mix] | [BART-Hybrid-pure] | [BART-Hybrid-strict]|
-| MT-RoBERTa | [RoBERTa-ICSD-mix]() |[RoBERTa-ICSD_pure] |[RoBERTa-Hybrid-mix] | [RoBERTa-Hybrid-pure] | [RoBERTa-Hybrid-strict]|
+| MT-GPT     | [GPT-Im]() |[GPT-Ip]() |[GPT-Hm]() | [GPT-Hp]() | [GPT-Hs]()|
+| MT-GPT2    | [GPT2-Im]() |[GPT2-Ip]() |[GPT2-Hm]() | [GPT2-Hp]() | [GPT2-Hs]()|
+| MT-GPTJ    | [GPTJ-Im]() |[GPTJ-Ip]() |[GPTJ-Hm]() | [GPTJ-Hp]() | [GPTJ-Hs]()|
+| MT-GPTNeo  | [GPTNeo-Im]() |[GPTNeo-Ip]() |[GPTNeo-Hm]() | [GPTNeo-Hp]() | [GPTNeo-Hs]()|
+| MT-BART    | [BART-Im]() |[BART-Ip]() |[BART-Hm]() | [BART-Hp]() | [BART-Hs]()|
+| MT-RoBERTa | [RoBERTa-Im]() |[RoBERTa-Ip]()|[RoBERTa-Hm]() | [RoBERTa-Hp]() | [RoBERTa-Hs]()|
 
 
 ### How to train with your own dataset
 
 #### Installation
-
+```
+pip install -r requirements.txt
+```
 
 #### Data preparation
-
+Download datasets from the above link, then unzip it under `MT_dataset` folder.
 
 #### Training
 
-Train MT-GPT materials transformers 
+Train a MT-GPT model on the Hybrid-mix dataset. 
 ```
-python MT-GPT-train.py --data xxxx --modelfile xxxx.pickle
+python ./MT_model/MT_GPT/train_GPT.py  --tokenizer ./MT_model/tokenizer/   --train_data  ./MT_Dataset/hy_mix/train.txt  --valid_data ./MT_Dataset/hy_mix/valid.txt  --output_dir ./output
 ```
+The training for other models is similar to MT-GPT.
 
 ### How to generate new materials compositions/formula using the trained models
 
 Generate materials formulas using the trained MT-GPT 
 ```
-python MT-GPT-generate.py --model xxxx --outputfile xxxx.csv
+python generateFormula_random.py  --tokenizer ./MT_model/tokenizer  --model_name OpenAIGPTLMHeadModel  --model_path ./MT_model/MT_GPT2/hy_mix
+```
+
+We also provide multi-thread generation. The default number of threads is 10, and you can change it using arg `n_thread`.
+```
+python multi_generateFormula_random.py  --tokenizer ./tokenizer  --model_name GPT2LMHeadModel  --model_path ./MT_GPT2/hy_mix  --n_thread 5
 ```
