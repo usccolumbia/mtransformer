@@ -24,12 +24,12 @@ All above datasets can be downloaded from [Figshare](https://figshare.com/accoun
 
 |         | ICSD-mix     | ICSD-pure | Hybrid-mix | Hybrid-pure | Hybrid-strict |
 |---------|--------------|-----------|------------|-------------|---------------|
-| MT-GPT     | [GPT-ICSD-mix] |[GPT-ICSD_pure] |[GPT-Hybrid-mix] | [GPT-Hybrid-pure] | [GPT-Hybrid-strict]|
-| MT-GPT2    | [GPT2-ICSD-mix] |[GPT2-ICSD_pure] |[GPT2-Hybrid-mix] | [GPT2-Hybrid-pure] | [GPT2-Hybrid-strict]|
-| MT-GPTJ    | [GPTJ-ICSD-mix] |[GPTJ-ICSD_pure] |[GPTJ-Hybrid-mix] | [GPTJ-Hybrid-pure] | [GPTJ-Hybrid-strict]|
-| MT-GPTNeo  | [GPTNeo-ICSD-mix] |[GPTNeo-ICSD_pure] |[GPTNeo-Hybrid-mix] | [GPTNeo-Hybrid-pure] | [GPTNeo-Hybrid-strict]|
-| MT-BART    | [BART-ICSD-mix] |[BART-ICSD_pure] |[BART-Hybrid-mix] | [BART-Hybrid-pure] | [BART-Hybrid-strict]|
-| MT-RoBERTa | [RoBERTa-ICSD-mix] |[RoBERTa-ICSD_pure] |[RoBERTa-Hybrid-mix] | [RoBERTa-Hybrid-pure] | [RoBERTa-Hybrid-strict]|
+| MT-GPT     | [GPT-ICSD-mix]() |[GPT-ICSD_pure] |[GPT-Hybrid-mix] | [GPT-Hybrid-pure] | [GPT-Hybrid-strict]|
+| MT-GPT2    | [GPT2-ICSD-mix]() |[GPT2-ICSD_pure] |[GPT2-Hybrid-mix] | [GPT2-Hybrid-pure] | [GPT2-Hybrid-strict]|
+| MT-GPTJ    | [GPTJ-ICSD-mix]() |[GPTJ-ICSD_pure] |[GPTJ-Hybrid-mix] | [GPTJ-Hybrid-pure] | [GPTJ-Hybrid-strict]|
+| MT-GPTNeo  | [GPTNeo-ICSD-mix]() |[GPTNeo-ICSD_pure] |[GPTNeo-Hybrid-mix] | [GPTNeo-Hybrid-pure] | [GPTNeo-Hybrid-strict]|
+| MT-BART    | [BART-ICSD-mix]() |[BART-ICSD_pure] |[BART-Hybrid-mix] | [BART-Hybrid-pure] | [BART-Hybrid-strict]|
+| MT-RoBERTa | [RoBERTa-ICSD-mix]() |[RoBERTa-ICSD_pure] |[RoBERTa-Hybrid-mix] | [RoBERTa-Hybrid-pure] | [RoBERTa-Hybrid-strict]|
 
 
 ### How to train with your own dataset
