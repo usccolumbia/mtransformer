@@ -18,7 +18,7 @@ by Machine Learning and Evolution Laboratory, University of South Carolina
 
 #### Hybrid-strict dataset
 
-All above datasets can be downloaded from <a href="[http://www.figshare.com/](https://figshare.com/account/projects/142139/articles/20122796)">Figshare.com</a>
+All above datasets can be downloaded from [Figshare](https://figshare.com/account/projects/142139/articles/20122796)
 
 ### Trained Materials Transformer Models
 
