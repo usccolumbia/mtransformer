@@ -18,7 +18,7 @@ by Machine Learning and Evolution Laboratory, University of South Carolina
 
 #### Hybrid-strict dataset
 
-All above datasets can be downloaded from <a href="http://www.figshare.com/">Figshare.com</a>
+All above datasets can be downloaded from <a href="[http://www.figshare.com/](https://figshare.com/account/projects/142139/articles/20122796)">Figshare.com</a>
 
 ### Trained Materials Transformer Models
 
@@ -49,7 +49,7 @@ python MT-GPT-train.py --data xxxx --modelfile xxxx.pickle
 
 ### How to generate new materials compositions/formula using the trained models
 
-Generate materials formulas using the MT-GPT 
+Generate materials formulas using the trained MT-GPT 
 ```
 python MT-GPT-generate.py --model xxxx --outputfile xxxx.csv
 ```
