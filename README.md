@@ -24,12 +24,12 @@ All above datasets can be downloaded from [Figshare](https://figshare.com/accoun
 
 |         | ICSD-mix     | ICSD-pure | Hybrid-mix | Hybrid-pure | Hybrid-strict |
 |---------|--------------|-----------|------------|-------------|---------------|
-| MT-GPT     | [GPT-Im]() |[GPT-Ip]() |[GPT-Hm]() | [GPT-Hp]() | [GPT-Hs]()|
-| MT-GPT2    | [GPT2-Im]() |[GPT2-Ip]() |[GPT2-Hm]() | [GPT2-Hp]() | [GPT2-Hs]()|
-| MT-GPTJ    | [GPTJ-Im]() |[GPTJ-Ip]() |[GPTJ-Hm]() | [GPTJ-Hp]() | [GPTJ-Hs]()|
-| MT-GPTNeo  | [GPTNeo-Im]() |[GPTNeo-Ip]() |[GPTNeo-Hm]() | [GPTNeo-Hp]() | [GPTNeo-Hs]()|
-| MT-BART    | [BART-Im]() |[BART-Ip]() |[BART-Hm]() | [BART-Hp]() | [BART-Hs]()|
-| MT-RoBERTa | [RoBERTa-Im]() |[RoBERTa-Ip]()|[RoBERTa-Hm]() | [RoBERTa-Hp]() | [RoBERTa-Hs]()|
+| MT-GPT     | [GPT-Im](https://figshare.com/account/projects/142139/articles/20123483?file=35994485) |[GPT-Ip](https://figshare.com/account/projects/142139/articles/20123483?file=35994485) |[GPT-Hm](https://figshare.com/account/projects/142139/articles/20123483?file=35994485) | [GPT-Hp](https://figshare.com/account/projects/142139/articles/20123483?file=35994485) | [GPT-Hs](https://figshare.com/account/projects/142139/articles/20123483?file=35994485)|
+| MT-GPT2    | [GPT2-Im](https://figshare.com/account/projects/142139/articles/20123483?file=35994491) |[GPT2-Ip](https://figshare.com/account/projects/142139/articles/20123483?file=35994491) |[GPT2-Hm](https://figshare.com/account/projects/142139/articles/20123483?file=35994491) | [GPT2-Hp](https://figshare.com/account/projects/142139/articles/20123483?file=35994491) | [GPT2-Hs](https://figshare.com/account/projects/142139/articles/20123483?file=35994491)|
+| MT-GPTJ    | [GPTJ-Im](https://figshare.com/account/projects/142139/articles/20123483?file=35994497) |[GPTJ-Ip](https://figshare.com/account/projects/142139/articles/20123483?file=35994497) |[GPTJ-Hm](https://figshare.com/account/projects/142139/articles/20123483?file=35994497) | [GPTJ-Hp](https://figshare.com/account/projects/142139/articles/20123483?file=35994497) | [GPTJ-Hs](https://figshare.com/account/projects/142139/articles/20123483?file=35994497)|
+| MT-GPTNeo  | [GPTNeo-Im](https://figshare.com/account/projects/142139/articles/20123483?file=35994503) |[GPTNeo-Ip](https://figshare.com/account/projects/142139/articles/20123483?file=35994503) |[GPTNeo-Hm](https://figshare.com/account/projects/142139/articles/20123483?file=35994503) | [GPTNeo-Hp](https://figshare.com/account/projects/142139/articles/20123483?file=35994503) | [GPTNeo-Hs](https://figshare.com/account/projects/142139/articles/20123483?file=35994503)|
+| MT-BART    | [BART-Im]([https://figshare.com/account/projects/142139/articles/20123483?file=35994482](https://figshare.com/account/projects/142139/articles/20123483?file=35994482)) |[BART-Ip](https://figshare.com/account/projects/142139/articles/20123483?file=35994482) |[BART-Hm](https://figshare.com/account/projects/142139/articles/20123483?file=35994482) | [BART-Hp](https://figshare.com/account/projects/142139/articles/20123483?file=35994482) | [BART-Hs](https://figshare.com/account/projects/142139/articles/20123483?file=35994482)|
+| MT-RoBERTa | [RoBERTa-Im](https://figshare.com/account/projects/142139/articles/20123483?file=35994506) |[RoBERTa-Ip](https://figshare.com/account/projects/142139/articles/20123483?file=35994506)|[RoBERTa-Hm](https://figshare.com/account/projects/142139/articles/20123483?file=35994506) | [RoBERTa-Hp](https://figshare.com/account/projects/142139/articles/20123483?file=35994506) | [RoBERTa-Hs](https://figshare.com/account/projects/142139/articles/20123483?file=35994506)|
 
 
 ### How to train with your own dataset
