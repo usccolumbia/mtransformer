@@ -35,12 +35,49 @@ All above datasets can be downloaded from [Figshare](https://figshare.com/accoun
 ### How to train with your own dataset
 
 #### Installation
+1. Create your own conda or other enviroment.
+2. install basic packages
 ```
 pip install -r requirements.txt
 ```
+3. Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) given your python & cuda version
 #### Data preparation
 Download datasets from the above link, then unzip it under `MT_dataset` folder.
-
+After this, the directory will be:
+```
+MTransformer
+   ├── MT_dataset
+       ├── hy_mix
+           ├── test.txt
+           ├── train.txt
+           ├── valid.txt
+       ├── hy_pure
+       ├── hy_strict
+       ├── icsd_mix
+       ├── icsd_pure
+       ├── mp
+   ├── MT_models
+       ├── MT_Bart
+           ├── hy_mix
+               ├── config.json
+               ├── pytorch_model.bin
+               ├── training_args.bin
+           ├── hy_pure
+           ├── hy_strict
+           ├── icsd_mix
+           ├── icsd_pure
+       ├── MT_GPT
+       ├── MT_GPT2
+       ├── MT_GPTJ
+       ├── MT_GPTNeo
+       ├── MT_RoBERTa
+       ├── tokenizer
+           ├── vocab.txt       
+   ├── generateFormula_random.py
+   ├── multi_generateFormula_random.py
+   ├── README.md
+   └── requirements.txt
+```
 #### Training
 An example is to train a MT-GPT model on the Hybrid-mix dataset. 
 ```
