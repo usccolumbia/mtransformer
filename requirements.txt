@@ -1,0 +1,5 @@
+transformers==4.17.0
+pandas==1.4.2 
+argparse==1.4.0 
+pymatgen==2022.4.19   
+atasets==1.18.3
