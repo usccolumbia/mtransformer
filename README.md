@@ -38,7 +38,6 @@ All above datasets can be downloaded from [Figshare](https://figshare.com/accoun
 ```
 pip install -r requirements.txt
 ```
-
 #### Data preparation
 Download datasets from the above link, then unzip it under `MT_dataset` folder.
 
