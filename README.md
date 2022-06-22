@@ -43,7 +43,7 @@ pip install -r requirements.txt
 3. Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) given your python & cuda version
 #### Data preparation
 Download datasets from the above link, then unzip it under `MT_dataset` folder.
-After this, the directory will be:
+After the above, the directory should be:
 ```
 MTransformer
    ├── MT_dataset
