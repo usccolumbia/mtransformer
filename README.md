@@ -3,7 +3,7 @@ Materials Transformers
 
 Ciation: Nihang Fu, Lai Wei, Yuqi Song, Qinyang Li, Rui Xin, Sadman Sadeed Omee, Rongzhi Dong, Edirisuriya M. Dilanga Siriwardane, Jianjun Hu.  Materials Transformer Language Models for Generative Materials Design: a Benchmark Study. Arxiv 2022
 
-by < a href="http://mleg.cse.sc.edu">Machine Learning and Evolution Laboratory</a>, University of South Carolina
+by <a href="http://mleg.cse.sc.edu">Machine Learning and Evolution Laboratory</a>, University of South Carolina
 
 
 ### Benchmark Datasets for training inorganic materials composition transformers
