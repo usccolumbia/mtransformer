@@ -88,12 +88,12 @@ The training for other models is similar to MT-GPT.
 ### How to generate new materials compositions/formula using the trained models
 Download models from the above link or use your own trianed models, then put them into correspoding folders.
 
-Generate materials formulas using the trained MT-GPT 
+Generate materials formulas using the trained MT-GPT model.
 ```
 python generateFormula_random.py  --tokenizer ./MT_model/tokenizer  --model_name OpenAIGPTLMHeadModel  --model_path ./MT_model/MT_GPT2/hy_mix
 ```
 
-We also provide multi-thread generation. The default number of threads is 10, and you can change it using arg `n_thread`.
+We also provide the multi-thread generation. The default number of threads is 10, and you can change it using arg `n_thread`.
 ```
 python multi_generateFormula_random.py  --tokenizer ./tokenizer  --model_name GPT2LMHeadModel  --model_path ./MT_GPT2/hy_mix  --n_thread 5
 ```
