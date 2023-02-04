@@ -1,7 +1,7 @@
 # MTransformer
 Materials Transformers
 
-Ciation: Nihang Fu, Lai Wei, Yuqi Song, Qinyang Li, Rui Xin, Sadman Sadeed Omee, Rongzhi Dong, Edirisuriya M. Dilanga Siriwardane, Jianjun Hu.  Materials Transformer Language Models for Generative Materials Design: a Benchmark Study. Arxiv 2022
+Ciation: Fu, Nihang, Lai Wei, Yuqi Song, Qinyang Li, Rui Xin, Sadman Sadeed Omee, Rongzhi Dong, Edirisuriya M. Dilanga Siriwardane, and Jianjun Hu. "Material transformers: deep learning language models for generative materials design." Machine Learning: Science and Technology 4, no. 1 (2023): 015001. [PDF](https://arxiv.org/pdf/2206.13578)
 
 by <a href="http://mleg.cse.sc.edu" target="_blank">Machine Learning and Evolution Laboratory</a>, University of South Carolina
 
